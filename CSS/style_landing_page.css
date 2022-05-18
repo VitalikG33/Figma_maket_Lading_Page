@@ -1,0 +1,259 @@
+
+/* Основа */
+
+
+*{
+	margin: 0;
+	padding: 0;
+	flex-wrap: wrap;
+	word-wrap: break-word; 
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+/* Навигаия + шапка */
+
+
+.navig{
+	position: fixed;
+	top: 0;
+	background: #007765;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 109px;
+	width: 100%;
+}
+
+.logo{
+	background: url(/Img/Vector.svg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 330px;
+	height: 83px;
+	margin-left: 15%;
+}
+
+
+.menu{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 15%;
+}
+
+.menu-li{
+	margin: 21px;
+	font-weight: 490;
+	font-size: 34px;
+	line-height: 28px;
+	/* identical to box height */
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.palka{
+	border-left: 6px solid rgb(255, 255, 255);
+	height: 34px;
+}
+
+.jumbotron{
+	margin-top: 84px;
+	height: 403px;
+	width: 100%;
+	background: url(/Img/image.svg) no-repeat ;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.jumbotron_text{
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+
+/* Контенте */
+
+
+
+.the_problem{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 0px 60px 0px;
+	background: #EEEEEE;
+}
+
+.the_problem_h1{
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	/* identical to box height */
+	text-align: center;
+	color: #007765;
+	margin: 0px 15% 0px 15%;
+}
+
+.the_problem_h1_text{
+	padding-left: 43px;
+	margin-top: 30px;
+	font-weight: 400; 
+	font-size: 26px;
+	line-height: 38px;
+	color: #000000;
+	text-align:start;
+	margin: 0px 15% 0px 15%;
+}
+
+.hero{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:url(/Img/image_hero.svg) no-repeat center ;
+	background-size: cover;
+}
+
+.hero_text{
+	margin: 128px 25% 128px 25%;
+	text-align:center;
+	font-weight: 500;
+	font-size: 38px;
+	line-height: 56px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.ppc{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 40px 0px 60px 0px;
+	background: #ffffff;
+
+}
+
+
+.ppc_h1{
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	/* identical to box height */
+	text-align: center;
+	color: #007765;
+	padding-bottom: 16px;
+	margin: 0px 15% 0px 15%;
+}
+
+
+.ppc_blok{
+	margin: 0px 15% 0px 15%;
+}
+
+.ppc_logo{
+	padding-right: 40px;
+}
+
+.ppc_p_one{
+	padding-right: 39px;
+	font-weight: 400;
+	font-size: 29px;
+	line-height: 38px;
+	color: #000000;
+}
+
+.ppc_p_two{
+	padding-top: 30px;
+	display: flex;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 29px;
+	line-height: 38px;
+	color: #000000;
+}
+
+
+
+/* The team */
+
+.the_team{
+	display: flex;
+	flex-direction: column;
+	background: #EEEEEE;
+}
+
+.the_team_h1{
+	padding-top: 40px;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	/* identical to box height */
+	text-align: center;
+	color: #007765;
+}
+
+.team_card{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0px 15% 0px 15%;
+	padding: 50px 0px 80px 0px;
+}
+
+.team_card_member{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.team_card_foto{
+	width: 168px;
+	height: 168px;
+	border-radius: 100px;
+}
+
+.team_card_h1{
+	padding-top: 20px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	/* identical to box height */
+	color: #007765;
+}
+
+.team_card_p{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+
+/* Footer */
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #333333;
+}
+
+footer p{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0px 30% 0px 30%;
+	padding: 30px 0px 40px 0px;
+}
